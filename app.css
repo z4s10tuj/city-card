@@ -1,0 +1,16 @@
+svg {
+  position: absolute;
+  top: 38.5%; left: 50%;
+  transform: translate(-50%, -50%)!important;
+  max-width: 420px;
+  width: 80%;
+  height: auto;
+}
+
+svg text {
+  font-family: 'PT Mono', monospace!important;
+  letter-spacing: .25ch;
+  fill: #828282;
+  stroke-width: 0.5px;
+  stroke: currentColor;
+}
