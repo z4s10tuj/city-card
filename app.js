@@ -22,7 +22,7 @@ var barcode = {
 
   update() {
     localStorage.setItem('cityBonusCode',
-      this.value = prompt('Yerevan City Bonus Card code:') || 'ABCDEFG'
+      this.value = prompt('Yerevan City Bonus Card code:') || this.value || 'ABCDEFG'
     );
     this.draw();
   }
