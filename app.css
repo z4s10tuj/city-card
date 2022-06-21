@@ -11,6 +11,6 @@ svg text {
   font-family: 'PT Mono', monospace!important;
   letter-spacing: .25ch;
   fill: #828282;
+  stroke: #828282;
   stroke-width: 0.5px;
-  stroke: currentColor;
 }
